@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deepak.loginfinal">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registered"
+            android:label="@string/title_activity_registered"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PasswordReset"
+            android:label="@string/title_activity_password_reset"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Call"
+            android:label="@string/title_activity_call"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sms"
+            android:label="@string/title_activity_sms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Welcome"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bluetooth"
+            android:label="@string/title_activity_bluetooth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MusicPlayer"
+            android:label="@string/title_activity_music_player"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".yogatherapy"
+            android:label="@string/title_activity_yogatherapy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Displayinfo"
+            android:label="@string/title_activity_displayinfo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MusicPlayer1"
+            android:label="@string/title_activity_music_player1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MusicPlayer2"
+            android:label="@string/title_activity_music_player2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Takeinput"
+            android:label="@string/title_activity_takeinput"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dlevel"
+            android:label="@string/title_activity_dlevel"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
